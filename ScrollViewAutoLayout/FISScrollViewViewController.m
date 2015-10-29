@@ -8,7 +8,9 @@
 
 #import "FISScrollViewViewController.h"
 
-@interface FISScrollViewViewController ()
+@interface FISScrollViewViewController ()// <UIScrollViewDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *airScrollView;
+@property (weak, nonatomic) IBOutlet UIView *contentView;
 
 @end
 
@@ -16,12 +18,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.airScrollView.accessibilityLabel = @"scrollView";
+    self.airScrollView.accessibilityIdentifier = @"scrollView";
+
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
     // Dispose of any resources that can be recreated.
+}
+
+-(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return self.contentView;
 }
 
 /*
