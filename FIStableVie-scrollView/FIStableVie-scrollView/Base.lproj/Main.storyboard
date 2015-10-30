@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NPZ-zm-7Re">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Air Plants Table View Controller-->
+        <scene sceneID="1OQ-Uc-6g4">
+            <objects>
+                <tableViewController id="NPZ-zm-7Re" customClass="AirPlantsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="315" sectionHeaderHeight="28" sectionFooterHeight="28" id="qfs-6s-xhU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="315" id="FKU-dM-ODr" customClass="ScrollingTableViewCell">
+                                <rect key="frame" x="0.0" y="28" width="375" height="315"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" tableViewCell="FKU-dM-ODr" id="95B-V2-utM">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="314.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hzp-LI-pgz">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="314"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KhL-rC-juE" userLabel="insideView">
+                                                    <rect key="frame" x="0.0" y="0.0" width="750" height="314"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="peU-Gw-EOy">
+                                                            <rect key="frame" x="1" y="0.0" width="749" height="314"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DS94M2k.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H4e-Ip-gLw">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="314"/>
+                                                                    <animations/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hipster_1dee4c_5687668.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7e0-Ty-Ckj">
+                                                                    <rect key="frame" x="376" y="0.0" width="374" height="314"/>
+                                                                    <animations/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <animations/>
+                                                            <constraints>
+                                                                <constraint firstItem="H4e-Ip-gLw" firstAttribute="height" secondItem="peU-Gw-EOy" secondAttribute="height" id="gfc-IN-Xol"/>
+                                                            </constraints>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstItem="peU-Gw-EOy" firstAttribute="leading" secondItem="KhL-rC-juE" secondAttribute="leading" constant="1" id="ADF-H2-ckR"/>
+                                                        <constraint firstAttribute="height" constant="314" id="AJW-U2-pkY"/>
+                                                        <constraint firstAttribute="trailing" secondItem="peU-Gw-EOy" secondAttribute="trailing" id="HAc-td-oPm"/>
+                                                        <constraint firstItem="peU-Gw-EOy" firstAttribute="height" secondItem="KhL-rC-juE" secondAttribute="height" id="hnX-8T-16V"/>
+                                                        <constraint firstItem="peU-Gw-EOy" firstAttribute="top" secondItem="KhL-rC-juE" secondAttribute="top" id="o3u-D9-07A"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" red="1" green="0.99400529449999997" blue="0.45113310880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="KhL-rC-juE" firstAttribute="top" secondItem="Hzp-LI-pgz" secondAttribute="top" id="0yw-6W-k2x"/>
+                                                <constraint firstAttribute="bottom" secondItem="KhL-rC-juE" secondAttribute="bottom" id="4py-jS-0Pa"/>
+                                                <constraint firstAttribute="trailing" secondItem="KhL-rC-juE" secondAttribute="trailing" id="4vT-6S-TLx"/>
+                                                <constraint firstItem="KhL-rC-juE" firstAttribute="leading" secondItem="Hzp-LI-pgz" secondAttribute="leading" id="YFx-Br-okc"/>
+                                            </constraints>
+                                        </scrollView>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Hzp-LI-pgz" secondAttribute="bottom" constant="-7.5" id="NLL-kd-qZK"/>
+                                        <constraint firstItem="Hzp-LI-pgz" firstAttribute="top" secondItem="95B-V2-utM" secondAttribute="topMargin" constant="-8" id="VU6-er-phj"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Hzp-LI-pgz" secondAttribute="trailing" constant="-8" id="lsi-cn-AMg"/>
+                                        <constraint firstItem="Hzp-LI-pgz" firstAttribute="leading" secondItem="95B-V2-utM" secondAttribute="leadingMargin" constant="-8" id="uk0-w7-yqh"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="KhL-rC-juE" firstAttribute="width" secondItem="FKU-dM-ODr" secondAttribute="width" multiplier="2" id="j4A-MC-42h"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageViewOne" destination="H4e-Ip-gLw" id="IEp-Dh-YdV"/>
+                                    <outlet property="imageViewTwo" destination="7e0-Ty-Ckj" id="0CI-Vg-tAf"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="NPZ-zm-7Re" id="rNg-xE-zSC"/>
+                            <outlet property="delegate" destination="NPZ-zm-7Re" id="IYX-VZ-fZm"/>
+                        </connections>
+                    </tableView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="98V-1Q-8B6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284.5" y="381.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3lH-Kg-8ro">
+            <objects>
+                <viewController id="ZrO-7e-Qh9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YeL-IE-2Zx"/>
+                        <viewControllerLayoutGuide type="bottom" id="sLh-pr-7qF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XYH-dR-Nr3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="toN-98-oZo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1330" y="367"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DS94M2k.jpg" width="660" height="660"/>
+        <image name="Hipster_1dee4c_5687668.jpg" width="660" height="660"/>
+    </resources>
+</document>

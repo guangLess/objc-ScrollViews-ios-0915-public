@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62282F231BE2A2FB00C6B97C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62282F221BE2A2FB00C6B97C /* main.m */; };
+		62282F261BE2A2FB00C6B97C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62282F251BE2A2FB00C6B97C /* AppDelegate.m */; };
+		62282F2C1BE2A2FB00C6B97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62282F2A1BE2A2FB00C6B97C /* Main.storyboard */; };
+		62282F2E1BE2A2FB00C6B97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62282F2D1BE2A2FB00C6B97C /* Assets.xcassets */; };
+		62282F311BE2A2FB00C6B97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62282F2F1BE2A2FB00C6B97C /* LaunchScreen.storyboard */; };
+		62282F3C1BE2A2FB00C6B97C /* FIStableVie_scrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62282F3B1BE2A2FB00C6B97C /* FIStableVie_scrollViewTests.m */; };
+		62282F471BE2A2FB00C6B97C /* FIStableVie_scrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62282F461BE2A2FB00C6B97C /* FIStableVie_scrollViewUITests.m */; };
+		62282F591BE2A41C00C6B97C /* AirPlantsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62282F581BE2A41C00C6B97C /* AirPlantsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62282F5D1BE2A92100C6B97C /* airplant2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62282F5A1BE2A92100C6B97C /* airplant2.jpg */; settings = {ASSET_TAGS = (); }; };
+		62282F5E1BE2A92100C6B97C /* airplant3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 62282F5B1BE2A92100C6B97C /* airplant3.JPG */; settings = {ASSET_TAGS = (); }; };
+		62282F5F1BE2A92100C6B97C /* airplant1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62282F5C1BE2A92100C6B97C /* airplant1.jpg */; settings = {ASSET_TAGS = (); }; };
+		624D2A351BE32D89001908EE /* DS94M2k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624D2A341BE32D89001908EE /* DS94M2k.jpg */; settings = {ASSET_TAGS = (); }; };
+		624D2A371BE330B8001908EE /* Hipster_1dee4c_5687668.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624D2A361BE330B8001908EE /* Hipster_1dee4c_5687668.jpg */; settings = {ASSET_TAGS = (); }; };
+		624D2A3A1BE3AD42001908EE /* ScrollingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 624D2A391BE3AD42001908EE /* ScrollingTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62282F381BE2A2FB00C6B97C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62282F161BE2A2FB00C6B97C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62282F1D1BE2A2FB00C6B97C;
+			remoteInfo = "FIStableVie-scrollView";
+		};
+		62282F431BE2A2FB00C6B97C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62282F161BE2A2FB00C6B97C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62282F1D1BE2A2FB00C6B97C;
+			remoteInfo = "FIStableVie-scrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62282F1E1BE2A2FB00C6B97C /* FIStableVie-scrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIStableVie-scrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62282F221BE2A2FB00C6B97C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62282F241BE2A2FB00C6B97C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62282F251BE2A2FB00C6B97C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62282F2B1BE2A2FB00C6B97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62282F2D1BE2A2FB00C6B97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62282F301BE2A2FB00C6B97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62282F321BE2A2FB00C6B97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62282F371BE2A2FB00C6B97C /* FIStableVie-scrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIStableVie-scrollViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62282F3B1BE2A2FB00C6B97C /* FIStableVie_scrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIStableVie_scrollViewTests.m; sourceTree = "<group>"; };
+		62282F3D1BE2A2FB00C6B97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62282F421BE2A2FB00C6B97C /* FIStableVie-scrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIStableVie-scrollViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62282F461BE2A2FB00C6B97C /* FIStableVie_scrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIStableVie_scrollViewUITests.m; sourceTree = "<group>"; };
+		62282F481BE2A2FB00C6B97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62282F571BE2A41C00C6B97C /* AirPlantsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlantsTableViewController.h; sourceTree = "<group>"; };
+		62282F581BE2A41C00C6B97C /* AirPlantsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlantsTableViewController.m; sourceTree = "<group>"; };
+		62282F5A1BE2A92100C6B97C /* airplant2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = airplant2.jpg; sourceTree = "<group>"; };
+		62282F5B1BE2A92100C6B97C /* airplant3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = airplant3.JPG; sourceTree = "<group>"; };
+		62282F5C1BE2A92100C6B97C /* airplant1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = airplant1.jpg; sourceTree = "<group>"; };
+		624D2A341BE32D89001908EE /* DS94M2k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DS94M2k.jpg; sourceTree = "<group>"; };
+		624D2A361BE330B8001908EE /* Hipster_1dee4c_5687668.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hipster_1dee4c_5687668.jpg; sourceTree = "<group>"; };
+		624D2A381BE3AD42001908EE /* ScrollingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingTableViewCell.h; sourceTree = "<group>"; };
+		624D2A391BE3AD42001908EE /* ScrollingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62282F1B1BE2A2FB00C6B97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62282F341BE2A2FB00C6B97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62282F3F1BE2A2FB00C6B97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62282F151BE2A2FB00C6B97C = {
+			isa = PBXGroup;
+			children = (
+				62282F201BE2A2FB00C6B97C /* FIStableVie-scrollView */,
+				62282F3A1BE2A2FB00C6B97C /* FIStableVie-scrollViewTests */,
+				62282F451BE2A2FB00C6B97C /* FIStableVie-scrollViewUITests */,
+				62282F1F1BE2A2FB00C6B97C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62282F1F1BE2A2FB00C6B97C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62282F1E1BE2A2FB00C6B97C /* FIStableVie-scrollView.app */,
+				62282F371BE2A2FB00C6B97C /* FIStableVie-scrollViewTests.xctest */,
+				62282F421BE2A2FB00C6B97C /* FIStableVie-scrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62282F201BE2A2FB00C6B97C /* FIStableVie-scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				62282F241BE2A2FB00C6B97C /* AppDelegate.h */,
+				62282F251BE2A2FB00C6B97C /* AppDelegate.m */,
+				62282F2A1BE2A2FB00C6B97C /* Main.storyboard */,
+				624D2A381BE3AD42001908EE /* ScrollingTableViewCell.h */,
+				624D2A391BE3AD42001908EE /* ScrollingTableViewCell.m */,
+				62282F571BE2A41C00C6B97C /* AirPlantsTableViewController.h */,
+				62282F581BE2A41C00C6B97C /* AirPlantsTableViewController.m */,
+				62282F2D1BE2A2FB00C6B97C /* Assets.xcassets */,
+				62282F2F1BE2A2FB00C6B97C /* LaunchScreen.storyboard */,
+				62282F321BE2A2FB00C6B97C /* Info.plist */,
+				62282F5A1BE2A92100C6B97C /* airplant2.jpg */,
+				62282F5B1BE2A92100C6B97C /* airplant3.JPG */,
+				62282F5C1BE2A92100C6B97C /* airplant1.jpg */,
+				624D2A361BE330B8001908EE /* Hipster_1dee4c_5687668.jpg */,
+				624D2A341BE32D89001908EE /* DS94M2k.jpg */,
+				62282F211BE2A2FB00C6B97C /* Supporting Files */,
+			);
+			path = "FIStableVie-scrollView";
+			sourceTree = "<group>";
+		};
+		62282F211BE2A2FB00C6B97C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62282F221BE2A2FB00C6B97C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62282F3A1BE2A2FB00C6B97C /* FIStableVie-scrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				62282F3B1BE2A2FB00C6B97C /* FIStableVie_scrollViewTests.m */,
+				62282F3D1BE2A2FB00C6B97C /* Info.plist */,
+			);
+			path = "FIStableVie-scrollViewTests";
+			sourceTree = "<group>";
+		};
+		62282F451BE2A2FB00C6B97C /* FIStableVie-scrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62282F461BE2A2FB00C6B97C /* FIStableVie_scrollViewUITests.m */,
+				62282F481BE2A2FB00C6B97C /* Info.plist */,
+			);
+			path = "FIStableVie-scrollViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62282F1D1BE2A2FB00C6B97C /* FIStableVie-scrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62282F4B1BE2A2FB00C6B97C /* Build configuration list for PBXNativeTarget "FIStableVie-scrollView" */;
+			buildPhases = (
+				62282F1A1BE2A2FB00C6B97C /* Sources */,
+				62282F1B1BE2A2FB00C6B97C /* Frameworks */,
+				62282F1C1BE2A2FB00C6B97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FIStableVie-scrollView";
+			productName = "FIStableVie-scrollView";
+			productReference = 62282F1E1BE2A2FB00C6B97C /* FIStableVie-scrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62282F361BE2A2FB00C6B97C /* FIStableVie-scrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62282F4E1BE2A2FB00C6B97C /* Build configuration list for PBXNativeTarget "FIStableVie-scrollViewTests" */;
+			buildPhases = (
+				62282F331BE2A2FB00C6B97C /* Sources */,
+				62282F341BE2A2FB00C6B97C /* Frameworks */,
+				62282F351BE2A2FB00C6B97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62282F391BE2A2FB00C6B97C /* PBXTargetDependency */,
+			);
+			name = "FIStableVie-scrollViewTests";
+			productName = "FIStableVie-scrollViewTests";
+			productReference = 62282F371BE2A2FB00C6B97C /* FIStableVie-scrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62282F411BE2A2FB00C6B97C /* FIStableVie-scrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62282F511BE2A2FB00C6B97C /* Build configuration list for PBXNativeTarget "FIStableVie-scrollViewUITests" */;
+			buildPhases = (
+				62282F3E1BE2A2FB00C6B97C /* Sources */,
+				62282F3F1BE2A2FB00C6B97C /* Frameworks */,
+				62282F401BE2A2FB00C6B97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62282F441BE2A2FB00C6B97C /* PBXTargetDependency */,
+			);
+			name = "FIStableVie-scrollViewUITests";
+			productName = "FIStableVie-scrollViewUITests";
+			productReference = 62282F421BE2A2FB00C6B97C /* FIStableVie-scrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62282F161BE2A2FB00C6B97C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Guang;
+				TargetAttributes = {
+					62282F1D1BE2A2FB00C6B97C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					62282F361BE2A2FB00C6B97C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 62282F1D1BE2A2FB00C6B97C;
+					};
+					62282F411BE2A2FB00C6B97C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 62282F1D1BE2A2FB00C6B97C;
+					};
+				};
+			};
+			buildConfigurationList = 62282F191BE2A2FB00C6B97C /* Build configuration list for PBXProject "FIStableVie-scrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62282F151BE2A2FB00C6B97C;
+			productRefGroup = 62282F1F1BE2A2FB00C6B97C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62282F1D1BE2A2FB00C6B97C /* FIStableVie-scrollView */,
+				62282F361BE2A2FB00C6B97C /* FIStableVie-scrollViewTests */,
+				62282F411BE2A2FB00C6B97C /* FIStableVie-scrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62282F1C1BE2A2FB00C6B97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624D2A351BE32D89001908EE /* DS94M2k.jpg in Resources */,
+				62282F5E1BE2A92100C6B97C /* airplant3.JPG in Resources */,
+				624D2A371BE330B8001908EE /* Hipster_1dee4c_5687668.jpg in Resources */,
+				62282F311BE2A2FB00C6B97C /* LaunchScreen.storyboard in Resources */,
+				62282F5D1BE2A92100C6B97C /* airplant2.jpg in Resources */,
+				62282F2E1BE2A2FB00C6B97C /* Assets.xcassets in Resources */,
+				62282F5F1BE2A92100C6B97C /* airplant1.jpg in Resources */,
+				62282F2C1BE2A2FB00C6B97C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62282F351BE2A2FB00C6B97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62282F401BE2A2FB00C6B97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62282F1A1BE2A2FB00C6B97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62282F591BE2A41C00C6B97C /* AirPlantsTableViewController.m in Sources */,
+				62282F261BE2A2FB00C6B97C /* AppDelegate.m in Sources */,
+				62282F231BE2A2FB00C6B97C /* main.m in Sources */,
+				624D2A3A1BE3AD42001908EE /* ScrollingTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62282F331BE2A2FB00C6B97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62282F3C1BE2A2FB00C6B97C /* FIStableVie_scrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62282F3E1BE2A2FB00C6B97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62282F471BE2A2FB00C6B97C /* FIStableVie_scrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62282F391BE2A2FB00C6B97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62282F1D1BE2A2FB00C6B97C /* FIStableVie-scrollView */;
+			targetProxy = 62282F381BE2A2FB00C6B97C /* PBXContainerItemProxy */;
+		};
+		62282F441BE2A2FB00C6B97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62282F1D1BE2A2FB00C6B97C /* FIStableVie-scrollView */;
+			targetProxy = 62282F431BE2A2FB00C6B97C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62282F2A1BE2A2FB00C6B97C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62282F2B1BE2A2FB00C6B97C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62282F2F1BE2A2FB00C6B97C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62282F301BE2A2FB00C6B97C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62282F491BE2A2FB00C6B97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62282F4A1BE2A2FB00C6B97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62282F4C1BE2A2FB00C6B97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FIStableVie-scrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FIStableVie-scrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62282F4D1BE2A2FB00C6B97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FIStableVie-scrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FIStableVie-scrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62282F4F1BE2A2FB00C6B97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FIStableVie-scrollViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FIStableVie-scrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIStableVie-scrollView.app/FIStableVie-scrollView";
+			};
+			name = Debug;
+		};
+		62282F501BE2A2FB00C6B97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FIStableVie-scrollViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FIStableVie-scrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIStableVie-scrollView.app/FIStableVie-scrollView";
+			};
+			name = Release;
+		};
+		62282F521BE2A2FB00C6B97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FIStableVie-scrollViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FIStableVie-scrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FIStableVie-scrollView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62282F531BE2A2FB00C6B97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FIStableVie-scrollViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FIStableVie-scrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FIStableVie-scrollView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62282F191BE2A2FB00C6B97C /* Build configuration list for PBXProject "FIStableVie-scrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62282F491BE2A2FB00C6B97C /* Debug */,
+				62282F4A1BE2A2FB00C6B97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62282F4B1BE2A2FB00C6B97C /* Build configuration list for PBXNativeTarget "FIStableVie-scrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62282F4C1BE2A2FB00C6B97C /* Debug */,
+				62282F4D1BE2A2FB00C6B97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62282F4E1BE2A2FB00C6B97C /* Build configuration list for PBXNativeTarget "FIStableVie-scrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62282F4F1BE2A2FB00C6B97C /* Debug */,
+				62282F501BE2A2FB00C6B97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62282F511BE2A2FB00C6B97C /* Build configuration list for PBXNativeTarget "FIStableVie-scrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62282F521BE2A2FB00C6B97C /* Debug */,
+				62282F531BE2A2FB00C6B97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62282F161BE2A2FB00C6B97C /* Project object */;
+}
